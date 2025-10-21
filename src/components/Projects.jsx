@@ -4,61 +4,31 @@ import { motion, useInView } from 'framer-motion'
 const projects = [
   {
     id: 1,
-    title: '3D Product Configurator',
-    description: 'Interactive 3D product visualization with real-time material customization using Three.js and React.',
-    image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=600&fit=crop',
-    tech: ['React', 'Three.js', 'WebGL'],
+    title: 'Inan Book',
+    description: 'A modern digital reading and publishing platform designed for writers and readers. Authors can publish books online, manage chapters, and connect with readers. Features secure payments, analytics, and multiple genres.',
+    image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=600&fit=crop',
+    tech: ['HTML', 'CSS', 'JavaScript'],
     color: '#00FFFF',
     link: '#',
     github: '#',
   },
   {
     id: 2,
-    title: 'WebXR Virtual Gallery',
-    description: 'Immersive VR art gallery experience built with WebXR API and A-Frame, featuring spatial audio.',
-    image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&h=600&fit=crop',
-    tech: ['WebXR', 'A-Frame', 'Three.js'],
+    title: 'Cut Pulse',
+    description: 'A creative video editing and production website showcasing high-quality cinematic edits. Features portfolio showcase, client inquiry forms, smooth scroll animations, and sleek dark aesthetic design.',
+    image: 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&h=600&fit=crop',
+    tech: ['HTML', 'CSS', 'JavaScript'],
     color: '#FF00FF',
     link: '#',
     github: '#',
   },
   {
     id: 3,
-    title: 'Particle Physics Simulator',
-    description: 'GPU-accelerated particle system with real-time physics simulation and custom shaders.',
-    image: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=600&fit=crop',
-    tech: ['GLSL', 'WebGL', 'React'],
+    title: 'Resume Builder',
+    description: 'An interactive resume builder tool that helps users create professional resumes with customizable templates, real-time preview, and export functionality. Simple, clean, and user-friendly interface.',
+    image: 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop',
+    tech: ['HTML', 'CSS', 'JavaScript'],
     color: '#00FF88',
-    link: '#',
-    github: '#',
-  },
-  {
-    id: 4,
-    title: 'AI-Powered Design Tool',
-    description: 'Machine learning-powered design assistant with real-time 3D preview and export capabilities.',
-    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop',
-    tech: ['TensorFlow.js', 'React', 'Three.js'],
-    color: '#0088FF',
-    link: '#',
-    github: '#',
-  },
-  {
-    id: 5,
-    title: 'Generative Art Platform',
-    description: 'Creative coding platform for generating and minting procedural art as NFTs on blockchain.',
-    image: 'https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=800&h=600&fit=crop',
-    tech: ['p5.js', 'Web3', 'IPFS'],
-    color: '#AA00FF',
-    link: '#',
-    github: '#',
-  },
-  {
-    id: 6,
-    title: 'Real-time Collaboration Tool',
-    description: 'Multi-user 3D workspace with real-time synchronization using WebRTC and WebSockets.',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop',
-    tech: ['WebRTC', 'Socket.io', 'Three.js'],
-    color: '#00FFFF',
     link: '#',
     github: '#',
   },
@@ -245,11 +215,10 @@ export default function Projects() {
             margin: '0 auto 4rem'
           }}
         >
-          A selection of projects showcasing my expertise in 3D web development,
-          interactive experiences, and creative coding.
+          Projects that showcase creativity, functionality, and a passion for turning ideas into reality.
         </motion.p>
 
-        <div className="grid grid-3" style={{ gap: '2rem' }}>
+        <div className="grid grid-3" style={{ gap: '2rem', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
           {projects.map((project, index) => (
             <ProjectCard key={project.id} project={project} index={index} />
           ))}
@@ -264,16 +233,10 @@ export default function Projects() {
             marginTop: '4rem'
           }}
         >
-          <motion.a
-            href="https://github.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="neon-button"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.98 }}
-          >
-            View More on GitHub
-          </motion.a>
+          <p style={{ color: '#b0b0b0', fontSize: '1.1rem' }}>
+            More amazing projects coming soon from{' '}
+            <span style={{ color: '#00ffff', fontWeight: 600 }}>Inan Infinites</span>! 🚀
+          </p>
         </motion.div>
       </div>
     </section>

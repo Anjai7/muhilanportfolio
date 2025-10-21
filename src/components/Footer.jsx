@@ -35,14 +35,14 @@ export default function Footer() {
               backgroundClip: 'text',
               marginBottom: '1rem',
             }}>
-              {'<Dev />'}
+              {'Inan Infinites'}
             </h3>
             <p style={{
               color: '#b0b0b0',
               fontSize: '0.95rem',
               lineHeight: 1.6,
             }}>
-              Creating immersive 3D web experiences with passion and precision.
+              Creating world-changing digital products that inspire and empower millions.
             </p>
           </div>
 
@@ -133,9 +133,9 @@ export default function Footer() {
             color: '#808080',
             fontSize: '0.9rem',
           }}>
-            © {currentYear} Muhilan RAj. Built with{' '}
-            <span style={{ color: '#ff00ff' }}>React</span>,{' '}
-            <span style={{ color: '#00ffff' }}>Three.js</span> &{' '}
+            © {currentYear} Muhilan Raj. Built with{' '}
+            <span style={{ color: '#ff00ff' }}>passion</span>,{' '}
+            <span style={{ color: '#00ffff' }}>creativity</span> &{' '}
             <span style={{ color: '#00ff88' }}>❤️</span>
           </p>
 

@@ -78,7 +78,7 @@ export default function Header() {
             textDecoration: 'none',
           }}
         >
-          {'<Dev />'}
+          {'MR'}
         </motion.a>
 
         {/* Navigation */}

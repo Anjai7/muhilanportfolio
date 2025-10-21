@@ -2,18 +2,18 @@ import React, { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 
 const skills = [
-  { name: 'React', icon: '⚛️', color: '#00FFFF', level: 95 },
-  { name: 'Three.js', icon: '🎲', color: '#FF00FF', level: 90 },
-  { name: 'JavaScript', icon: '⚡', color: '#00FF88', level: 95 },
-  { name: 'TypeScript', icon: '📘', color: '#0088FF', level: 88 },
-  { name: 'WebGL', icon: '🌐', color: '#AA00FF', level: 85 },
-  { name: 'GSAP', icon: '🎬', color: '#00FFFF', level: 92 },
-  { name: 'Node.js', icon: '🟢', color: '#00FF88', level: 87 },
-  { name: 'CSS/SCSS', icon: '🎨', color: '#FF00FF', level: 93 },
-  { name: 'WebXR', icon: '🥽', color: '#00FFFF', level: 80 },
-  { name: 'Blender', icon: '🔷', color: '#FF00FF', level: 75 },
-  { name: 'Git', icon: '🔀', color: '#00FF88', level: 90 },
-  { name: 'Docker', icon: '🐋', color: '#0088FF', level: 82 },
+  { name: 'HTML', icon: '🌐', color: '#00FFFF', level: 90 },
+  { name: 'CSS', icon: '�', color: '#FF00FF', level: 90 },
+  { name: 'JavaScript', icon: '⚡', color: '#00FF88', level: 40 },
+  { name: 'React', icon: '⚛️', color: '#0088FF', level: 5 },
+  { name: 'Three.js', icon: '�', color: '#AA00FF', level: 0 },
+  { name: 'Python', icon: '🐍', color: '#00FFFF', level: 40 },
+  { name: 'Java', icon: '☕', color: '#FF00FF', level: 40 },
+  { name: 'Animations', icon: '✨', color: '#00FF88', level: 85 },
+  { name: 'UI/UX', icon: '💡', color: '#00FFFF', level: 80 },
+  { name: 'Responsive', icon: '�', color: '#FF00FF', level: 88 },
+  { name: 'Design', icon: '🎭', color: '#00FF88', level: 75 },
+  { name: 'Git', icon: '�', color: '#0088FF', level: 70 },
 ]
 
 const containerVariants = {

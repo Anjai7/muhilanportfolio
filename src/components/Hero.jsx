@@ -57,10 +57,8 @@ export default function Hero() {
         >
           Frontend Developer • Creative Technologist
           <br />
-          <span style={{ color: '#00ffff' }}>React</span> • <span style={{ color: '#ff00ff' }}>Three.js</span> • <span style={{ color: '#00ff88' }}>WebGL</span>
-        </motion.p>
-
-        {/* CTA Button */}
+          <span style={{ color: '#00ffff' }}>HTML</span> • <span style={{ color: '#ff00ff' }}>CSS</span> • <span style={{ color: '#00ff88' }}>JavaScript</span>
+        </motion.p>        {/* CTA Button */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}

@@ -76,9 +76,9 @@ export default function About() {
               color: '#d0d0d0',
               marginBottom: '1.5rem'
             }}>
-              Hi! I'm a <span style={{ color: '#00ffff', fontWeight: 600 }}>Frontend Developer</span> and 
-              <span style={{ color: '#ff00ff', fontWeight: 600 }}> Creative Technologist</span> passionate 
-              about building immersive web experiences that blend art and technology.
+              Hey there! I'm <span style={{ color: '#00ffff', fontWeight: 600 }}>Muhilan Raj</span>, a passionate 
+              <span style={{ color: '#ff00ff', fontWeight: 600 }}> front-end developer</span> who loves crafting 
+              sleek and interactive web experiences.
             </p>
 
             <p style={{ 
@@ -87,11 +87,23 @@ export default function About() {
               color: '#b0b0b0',
               marginBottom: '1.5rem'
             }}>
-              I specialize in creating interactive 3D web applications using modern technologies like 
-              <span style={{ color: '#00ff88' }}> React</span>, 
-              <span style={{ color: '#00ffff' }}> Three.js</span>, and 
-              <span style={{ color: '#ff00ff' }}> WebGL</span>. My goal is to push the boundaries of 
-              what's possible on the web while maintaining performance and accessibility.
+              I specialize in building responsive websites using 
+              <span style={{ color: '#00ff88' }}> HTML</span>, 
+              <span style={{ color: '#00ffff' }}> CSS</span>, and 
+              <span style={{ color: '#ff00ff' }}> JavaScript</span>, and I'm constantly exploring new technologies 
+              to make designs come alive with animations, effects, and smooth user experiences. Every line of code 
+              feels like art to me — a mix of logic, imagination, and detail.
+            </p>
+
+            <p style={{ 
+              fontSize: 'clamp(1rem, 2vw, 1.2rem)',
+              lineHeight: 1.8,
+              color: '#b0b0b0',
+              marginBottom: '1.5rem'
+            }}>
+              My dream is to build world-changing digital products under my company 
+              <span style={{ color: '#00ffff', fontWeight: 600 }}> Inan Infinites</span>, creating technology 
+              that inspires and empowers millions of people.
             </p>
 
             <p style={{ 
@@ -99,8 +111,8 @@ export default function About() {
               lineHeight: 1.8,
               color: '#b0b0b0'
             }}>
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source 
-              projects, or experimenting with creative coding and generative art.
+              When I'm not coding, you'll probably find me sketching new ideas, exploring futuristic tech concepts, 
+              or brainstorming ways to build the next big thing.
             </p>
           </motion.div>
 
@@ -121,9 +133,9 @@ export default function About() {
                 fontSize: '2.5rem',
                 marginBottom: '0.5rem'
               }}>
-                5+
+                3+
               </h3>
-              <p style={{ color: '#808080' }}>Years Experience</p>
+              <p style={{ color: '#808080' }}>Projects Built</p>
             </div>
             <div>
               <h3 style={{ 
@@ -131,9 +143,9 @@ export default function About() {
                 fontSize: '2.5rem',
                 marginBottom: '0.5rem'
               }}>
-                50+
+                100%
               </h3>
-              <p style={{ color: '#808080' }}>Projects Completed</p>
+              <p style={{ color: '#808080' }}>Passion & Creativity</p>
             </div>
             <div>
               <h3 style={{ 
@@ -141,9 +153,9 @@ export default function About() {
                 fontSize: '2.5rem',
                 marginBottom: '0.5rem'
               }}>
-                30+
+                ∞
               </h3>
-              <p style={{ color: '#808080' }}>Happy Clients</p>
+              <p style={{ color: '#808080' }}>Ideas & Dreams</p>
             </div>
           </motion.div>
         </div>
