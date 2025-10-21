@@ -250,10 +250,9 @@ export default function Contact() {
               gap: '1.5rem',
             }}>
               {[
-                { name: 'GitHub', icon: '🔗', url: 'https://github.com' },
-                { name: 'LinkedIn', icon: '💼', url: 'https://linkedin.com' },
-                { name: 'Twitter', icon: '🐦', url: 'https://twitter.com' },
-                { name: 'Email', icon: '📧', url: 'mailto:your@email.com' },
+                { name: 'GitHub', icon: '🔗', url: 'https://github.com/Muhilanraj18' },
+                { name: 'LinkedIn', icon: '💼', url: 'https://www.linkedin.com/in/muhilan-raj-a252a1328' },
+                { name: 'Email', icon: '📧', url: 'mailto:muhilanraj@example.com' },
               ].map((social) => (
                 <motion.a
                   key={social.name}

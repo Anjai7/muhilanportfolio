@@ -94,14 +94,12 @@ export default function Footer() {
               gap: '1rem',
             }}>
               {[
-                { name: 'GitHub', icon: '🔗' },
-                { name: 'LinkedIn', icon: '💼' },
-                { name: 'Twitter', icon: '🐦' },
-                { name: 'Dribbble', icon: '🎨' },
+                { name: 'GitHub', icon: '🔗', url: 'https://github.com/Muhilanraj18' },
+                { name: 'LinkedIn', icon: '💼', url: 'https://www.linkedin.com/in/muhilan-raj-a252a1328' },
               ].map((social) => (
                 <motion.a
                   key={social.name}
-                  href={`https://${social.name.toLowerCase()}.com`}
+                  href={social.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.2, y: -3 }}
@@ -144,7 +142,7 @@ export default function Footer() {
             fontSize: '0.9rem',
           }}>
             <motion.a
-              href="https://github.com/yourusername"
+              href="https://github.com/Muhilanraj18"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ color: '#00ffff' }}
@@ -154,7 +152,7 @@ export default function Footer() {
                 transition: 'color 0.3s ease',
               }}
             >
-              View Source
+              View GitHub
             </motion.a>
           </p>
         </div>
